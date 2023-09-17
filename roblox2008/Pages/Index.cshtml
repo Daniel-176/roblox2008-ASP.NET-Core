@@ -1,0 +1,80 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div id="SplashContainer">
+    <div id="SignInPane">
+        <div id="LoginViewContainer">
+            <div id="LoginView">
+                <h5>Member Login</h5>
+                <div class="AspNet-Login">
+                    <div class="AspNet-Login">
+                        <div class="AspNet-Login-SubmitPanel">
+                            <a id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_Login" tabindex="4" class="Button" href="/Identity/Account/Login">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="Figure">
+            <a id="ctl00_cphRoblox_LoginView1_ImageFigure" disabled="disabled" title="Figure" onclick="return false" style="display:inline-block;"><img src="/images/NewFrontPageGuy.png" border="0" alt="Figure" blankurl="http://t1.roblox.com:80/blank-115x130.gif"></a>
+        </div>
+    </div>
+    <div id="RobloxAtAGlance">
+        <h2>ROBLOX Virtual Playworld</h2>
+        <h3>ROBLOX is Free!</h3>
+        <ul id="ThingsToDo">
+            <li id="Point1">
+                <h3>Build your personal Place</h3>
+                <div>Create buildings, vehicles, scenery, and traps with thousands of virtual bricks.</div>
+            </li>
+            <li id="Point2">
+                <h3>Meet new friends online</h3>
+                <div>Visit your friend's place, chat in 3D, and build together.</div>
+            </li>
+            <li id="Point3">
+                <h3>Battle in the Brick Arenas</h3>
+                <div>Play with the slingshot, rocket, or other brick battle tools.  Be careful not to get "bloxxed".</div>
+            </li>
+        </ul>
+        <div id="Showcase" onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+            <iframe width="400" height="326" src="https://www.youtube.com/embed/dFtTJmsvRKo"></iframe>
+        </div>
+        <div id="Install">
+            <div id="CompatibilityNote">Works with your<br>Windows PC!</div>
+            <div id="DownloadAndPlay"><a id="ctl00_cphRoblox_RobloxAtAGlanceLoginView_RobloxAtAGlance_Anonymous_hlDownloadAndPlay" href="Login/New.aspx?ReturnUrl=%2fGames.aspx"><img src="/images/DownloadAndPlay.png" alt="FREE - Download and Play!" border="0"></a></div>
+        </div>
+    </div>
+    <div id="UserPlacesPane">
+        <div id="UserPlaces_Content">
+            <table id="ctl00_cphRoblox_CoolPlaces_CoolPlacesDataList" cellspacing="0" border="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td class="UserPlace">
+                            <a id="ctl00_cphRoblox_CoolPlaces_CoolPlacesDataList_ctl00_rbxContentImage" title="✪Ultimate Paintball CTF" href="/Item.aspx?ID=47828" style="display:inline-block;cursor:pointer;"><img src="" border="0" alt="✪Ultimate Paintball CTF"></a>
+                        </td>
+                        <td class="UserPlace">
+                            <a id="ctl00_cphRoblox_CoolPlaces_CoolPlacesDataList_ctl01_rbxContentImage" title="Avatar: Air Nomad Legends" href="/Item.aspx?ID=199135" style="display:inline-block;cursor:pointer;"><img src="" border="0" alt="Avatar: Air Nomad Legends"></a>
+                        </td>
+                        <td class="UserPlace">
+                            <a id="ctl00_cphRoblox_CoolPlaces_CoolPlacesDataList_ctl02_rbxContentImage" title="Village Tycoon! v3.6 [Desc] (There's no VIP shirt)" href="/Item.aspx?ID=456398" style="display:inline-block;cursor:pointer;"><img src="" border="0" alt="Village Tycoon! v3.6 [Desc] (There's no VIP shirt)"></a>
+                        </td>
+                        <td class="UserPlace">
+                            <a id="ctl00_cphRoblox_CoolPlaces_CoolPlacesDataList_ctl03_rbxContentImage" title="Jaws" href="/Item.aspx?ID=3127208" style="display:inline-block;cursor:pointer;"><img src="" border="0" alt="Jaws"></a>
+                        </td>
+                        <td class="UserPlace">
+                            <a id="ctl00_cphRoblox_CoolPlaces_CoolPlacesDataList_ctl04_rbxContentImage" title="Hide and Seek! Shops fixed!" href="/Item.aspx?ID=309306" style="display:inline-block;cursor:pointer;"><img src="" border="0" alt="Hide and Seek! Shops fixed!"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="UserPlaces_Header">
+            <h3>Cool Places</h3>
+            <p>Check out some of our favorite ROBLOX places!</p>
+        </div>
+        <div id="ctl00_cphRoblox_CoolPlaces_ie6_peekaboo" style="clear: both"></div>
+    </div>
+</div>
